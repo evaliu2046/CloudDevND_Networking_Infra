@@ -6,8 +6,8 @@ Implemented basic Networking Infrastructure using CloudFormation code in YAM, ad
 ## AWS CLI CMD
 Create the server with AWS CLI command line. 
 ```
- ./create.sh infrastack server.yml server_para.json 
+ ./create.sh infrastack ourinfra.yml ourinfra_para.json
 ```
 Update the server once we have some changes made, done by AWS CLI command line. 
 ```
- ./update.sh infrastack server.yml server_para.json 
+ ./update.sh infrastack ourinfra.yml ourinfra_para.json
